@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ARG BRANCH="main"
+ARG BRANCH="tranzact"
 
 ENV keys="generate"
 ENV harvester="false"
